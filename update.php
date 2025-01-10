@@ -153,15 +153,15 @@ if (isset($_POST['submit'])) {
     <label for="file">Image:</label><br>
     <input type="file" id="file" name="file[]" multiple>
     <?php
-    if ($imageList) {
-        foreach ($imageList as $image) {
-            echo '<input type="checkbox" name="delete_images[]" value="'. $image .'"checked>
-                  <img src="upload/'. $image . '" style="height:40px;width:40px;margin-right:20px;">';
-        }
-    }
-    else{
-        echo "No images found.";
-    }
+    // if ($imageList) {
+    //     foreach ($imageList as $image) {
+    //         echo '<input type="checkbox" name="delete_images[]" value="'. $image .'"checked>
+    //               <img src="upload/'. $image . '" style="height:40px;width:40px;margin-right:20px;">';
+    //     }
+    // }
+    // else{
+    //     echo "No images found.";
+    // }
     ?>
     <br><br>
     <label for="password">Password:</label><br>
